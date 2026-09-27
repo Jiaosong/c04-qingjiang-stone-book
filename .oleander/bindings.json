@@ -1,0 +1,59 @@
+{
+  "schema": "oleander.project-materialization-bindings.v0.1",
+  "project_id": "PRJ-C04-QINGJIANG-SHISHU",
+  "authority_ceiling": "PROJECT_MATERIALIZATION_BINDING_ONLY",
+  "repository": {
+    "repository_ref": "repo:.",
+    "role": "PRIMARY",
+    "remote_identity": "https://github.com/Jiaosong/c04-qingjiang-stone-book.git"
+  },
+  "workspace": {
+    "workspace_ref": "workspace:repo-root",
+    "workspace_class": "MAIN",
+    "repository_ref": "repo:."
+  },
+  "artifact_stores": [
+    {
+      "ref": "repo:design",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    },
+    {
+      "ref": "repo:evidence",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    },
+    {
+      "ref": "repo:game-ui",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    },
+    {
+      "ref": "repo:QJ-C22-SPATIAL-DRAWING",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    },
+    {
+      "ref": "repo:QJ-C23-CONCEPT-DEVELOPMENT",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    }
+  ],
+  "artifact_store_state": "VERIFIED_LOCAL_PATHS",
+  "knowledge_mounts": [
+    {
+      "ref": "repo:chapter-content-sync/v0.2/KNOWLEDGE-SOURCE-REGISTER.md",
+      "state": "BOUND_SOURCE_REF_NOT_KNOWLEDGE_CURRENT",
+      "semantic_class": "KNOWLEDGE_SOURCE_LOCATION_NOT_KNOWLEDGE_AUTHORITY"
+    }
+  ],
+  "knowledge_mount_state": "VERIFIED_SOURCE_REFS",
+  "migration_provenance": [],
+  "does_not_prove": [
+    "PROJECT_CURRENT",
+    "KNOWLEDGE_CURRENT",
+    "DESIGN_KEEP",
+    "PROFESSIONAL_PASS",
+    "PROMOTION"
+  ]
+}
