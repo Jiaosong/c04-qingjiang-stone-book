@@ -757,7 +757,7 @@ C04 最值得看的不是“项目文件很多”，而是如何处理复杂度�
 
 ## Canonical references
 
-- [Governance Case Map](../../00-governance/case-map.md)
+- [Governance Case Map](https://github.com/Jiaosong/Design/blob/main/00-governance/case-map.md)
 - [C04 Current Authority](C04_CURRENT.md)
 - [C04 Project Control Card](C04_PROJECT_CONTROL_CARD_CURRENT.md)
 - [Project Architecture v3.2](C04-B_PROJECT-ARCHITECTURE_v3.2.md)
