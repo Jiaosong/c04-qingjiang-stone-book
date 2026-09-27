@@ -1,0 +1,16 @@
+{
+    "schema":  "oleander.project-bootstrap-locator.v0.1",
+    "project_id":  "PRJ-C04-QINGJIANG-SHISHU",
+    "project_state_ref":  "file:C04_CURRENT.md",
+    "authority_ref":  "file:C04_CURRENT.md",
+    "repository_role":  "PRIMARY",
+    "remote_identity":  "UNBOUND_LOCAL_ONLY",
+    "authority_ceiling":  "LOCATOR_ONLY",
+    "semantic_class":  "BOOTSTRAP_LOCATOR_NOT_PROJECT_STATE",
+    "does_not_prove":  [
+                           "PROJECT_CURRENT",
+                           "DESIGN_KEEP",
+                           "PROFESSIONAL_PASS",
+                           "PROMOTION"
+                       ]
+}
